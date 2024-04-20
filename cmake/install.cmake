@@ -1,0 +1,12 @@
+################################
+# Install
+################################
+
+set(CPACK_PACKAGE_NAME "StArch")
+set(CPACK_PACKAGE_VENDOR "NicePotato")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Fantasy computer blah blah blah")
+set(CPACK_PACKAGE_VERSION_MAJOR "${VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${VERSION_MINOR}")
+set(CPACK_PACKAGE_VERSION_PATCH "${VERSION_REVISION}")
+set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "StArch")
